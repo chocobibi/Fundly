@@ -1056,6 +1056,56 @@ h6 {
   background-color: #1bb1dc;
 }
 
+/* Domestic_Fund Section
+--------------------------------*/
+
+#fundFinder {
+	padding: 100px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+}
+
+.Scrollbar1 {
+	 height:200px; 
+	 z-index:0; 
+	 overflow-x:hidden;
+}
+
+.Scrollbar1::-webkit-scrollbar {
+    width: 7px;
+}
+ 
+.Scrollbar1::-webkit-scrollbar-thumb {
+    background-color: #1BB1DC;
+    border-radius: 5px;
+}
+
+.Scrollbar1::-webkit-scrollbar-track {
+    background-color: #d3d3d3;
+    border-radius: 5px;
+}
+
+.Scrollbar2 {
+	 height:200px; 
+	 z-index:0; 
+	 overflow-x:hidden;
+}
+
+.Scrollbar2::-webkit-scrollbar {
+    width: 7px;
+}
+ 
+.Scrollbar2::-webkit-scrollbar-thumb {
+    background-color: #1BB1DC;
+    border-radius: 5px;
+}
+
+.Scrollbar2::-webkit-scrollbar-track {
+    background-color: #d3d3d3;
+    border-radius: 5px;
+}
+
+
 /* Pricing Section
 --------------------------------*/
 
