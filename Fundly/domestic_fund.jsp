@@ -58,7 +58,7 @@
 
       <div class="logo float-left">
         <!-- Uncomment below if you prefer to use an image logo -->
-        <h1 class="text-light"><a href="#intro" class="scrollto"><span>Fundly</span></a></h1>
+        <h1 class="text-light"><a href="index.html" class="scrollto"><span>Fundly</span></a></h1>
         <!-- <a href="#header" class="scrollto"><img src="img/logo.png" alt="" class="img-fluid"></a> -->
       </div>
 
@@ -94,12 +94,13 @@
   </header><!-- #header -->
 
   <!--==========================
-    Intro Section
+    DomesticFund Section
   ============================-->
-  <section id="intro" class="clearfix">
+  <section id="domesticFund" class="section-bg">
     	<!-- 펀드 파인더 -->
-    	<div id="fundFinder">
-	<div class="text-uppercase text-bold"><b>Fund Finder</b></div>
+    <div class="container">
+    <div class="wow fadeInUp pt-5 pt-lg-0"> <!-- 위로 올라오는 효과 -->
+    	<div class="text-uppercase text-bold"><br><br><br><br><br><br><p style="font-size:20px; font-weight:bold;">Fund Finder</p></div>
 	<table class="table table-striped table-hover">
 		<thead>
 			<tr align="center">
@@ -220,10 +221,66 @@
 				</td>
 		</tbody>
 	</table>
-</div>
+	</div>
+	<br>
+</section>
     	<!-- 전체 펀드 -->
+    	<section id="all_fund">
     	
+    	<div class="container">
+    	<div class="wow fadeInUp pt-5 pt-lg-0"> <!-- 위로 올라오는 효과 -->
+    	<div class="text-uppercase text-bold"><br><p style="font-size:20px; font-weight:bold;">국내 펀드</p></div>
+  		
+        <a href="#"><font size="2px" color="black"><b>수익률 1개월 순   |</b></font></a>
+        <a href="#"><font size="2px" color="black"><b>수익률 3개월 순   |</b></font></a>
+        <a href="#"><font size="2px" color="black"><b>수익률 1년 순      |</b></font></a>
+        <a href="#"><font size="2px" color="black"><b>신상품 순</b></font></a>
+ 		
+	<table class="table table-striped table-hover">
+		<thead>
+			<tr>
+				<td rowspan="2" align="center"><b><br>펀드명</b></td>
+				<td colspan="3" align="center"><b>수익률 (%)</b></td>
+			</tr>
+			<tr align="center">
+				<td><b>1개월</b></td>
+				<td><b>3개월</b></td>
+				<td><b>1년</b></td>
+			</tr>
+		</thead>
+		<tbody>
+				<td align="center">	<!-- 펀드명 -->
+					한국투자코스닥인버스증권투자신탁(주식-재간접파생형)
+				</td>
+				<td align="center">	<!-- 수익률 1개월 -->
+					22.85%
+				</td>
+				<td align="center">	<!-- 수익률 3개월 -->
+					13.01%
+				</td>
+				<td align="center">	<!-- 수익률 1년 -->
+					N/A
+				</td>			
+		</tbody>
+		<tbody>
+				<td align="center">	<!-- 펀드명 -->
+					신한BNPP2Star지수연계증권투자신탁HE-29[ELS-파생형]
+				</td>
+				<td align="center">	<!-- 수익률 1개월 -->
+					20.80%
+				</td>
+				<td align="center">	<!-- 수익률 3개월 -->
+					17.32%
+				</td>
+				<td align="center">	<!-- 수익률 1년 -->
+					N/A
+				</td>			
+		</tbody>
+		<br>
+	</table>
     </div>
+  </div>
+
   </section><!-- #국내 펀드 페이지 -->
 
 
@@ -231,8 +288,7 @@
   <!--==========================
     Footer
   ============================-->
-  <footer id="footer" class="section-bg">
-    <div class="footer-top">
+  <footer id="footer">
     <div class="container">
       <div class="copyright">
         &copy; Copyright <strong>Fundly</strong>. All Rights Reserved
