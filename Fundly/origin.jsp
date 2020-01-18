@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Fundly</title>
+  <title>Rapid Bootstrap Template</title>
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <meta content="" name="keywords">
   <meta content="" name="description">
@@ -46,8 +46,8 @@
         <div class="social-links">
           <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
           <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+          <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
           <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
-          <a href="#" class="login">Login</a>
         </div>
       </div>
     </div>
@@ -56,20 +56,20 @@
 
       <div class="logo float-left">
         <!-- Uncomment below if you prefer to use an image logo -->
-        <h1 class="text-light"><a href="#intro" class="scrollto"><span>Fundly</span></a></h1>
+        <h1 class="text-light"><a href="#intro" class="scrollto"><span>Rapid</span></a></h1>
         <!-- <a href="#header" class="scrollto"><img src="img/logo.png" alt="" class="img-fluid"></a> -->
       </div>
 
       <nav class="main-nav float-right d-none d-lg-block">
         <ul>
           <li class="active"><a href="#intro">Home</a></li>
-          <li><a href="domestic_fund.jsp">국내 펀드</a></li>
-          <li><a href="personal_result.jsp">나만의 펀드</a></li>
-          <li><a href="#my_fund">펀드 예측</a></li>
-          <li><a href="#about_us">About Us</a></li>
-          <li class="drop-down"><a href="">FAQ</a> <!-- drop down 기능 -->
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#team">Team</a></li>
+          <li class="drop-down"><a href="">Drop Down</a>
             <ul>
-              <li><a href="#">Drop Down 1</a></li> 
+              <li><a href="#">Drop Down 1</a></li>
               <li class="drop-down"><a href="#">Drop Down 2</a>
                 <ul>
                   <li><a href="#">Deep Drop Down 1</a></li>
@@ -84,7 +84,7 @@
               <li><a href="#">Drop Down 5</a></li>
             </ul>
           </li>
-          <li><a href="#footer">Contact</a></li>
+          <li><a href="#footer">Contact Us</a></li>
         </ul>
       </nav><!-- .main-nav -->
       
@@ -98,14 +98,14 @@
     <div class="container d-flex h-100">
       <div class="row justify-content-center align-self-center">
         <div class="col-md-6 intro-info order-md-first order-last">
-          <h2>Find your own fund<br>through <span>Fundly!</span></h2>
+          <h2>Rapid Solutions<br>for Your <span>Business!</span></h2>
           <div>
-            <a href="#about" class="btn-get-started scrollto">Find my fund</a>
+            <a href="#about" class="btn-get-started scrollto">Get Started</a>
           </div>
         </div>
   
         <div class="col-md-6 intro-img order-md-last order-first">
-          <img src="img/intro-img.png" alt="" class="img-fluid">
+          <img src="img/intro-img.svg" alt="" class="img-fluid">
         </div>
       </div>
 
@@ -113,11 +113,10 @@
   </section><!-- #intro -->
 
   <main id="main">
-  
+
     <!--==========================
       About Us Section
     ============================-->
-      <!--
     <section id="about">
 
       <div class="container">
@@ -151,40 +150,58 @@
     <!--==========================
       Services Section
     ============================-->
-  
     <section id="services" class="section-bg">
       <div class="container">
 
         <header class="section-header">
-          <h3>Our Services</h3>
-          <p>Fundly는 Fund와 friendly의 합성어로 고객님들이 펀드에 좀 더 친숙하게 다가갈 수 있도록 도와드립니다.</p>
+          <h3>Services</h3>
+          <p>Laudem latine persequeris id sed, ex fabulas delectus quo. No vel partiendo abhorreant vituperatoribus.</p>
         </header>
 
         <div class="row">
 
           <div class="col-md-6 col-lg-4 wow bounceInUp" data-wow-duration="1.4s">
             <div class="box">
-              <div>
-               <img src="img/bank.png" class="icon" style="background: #f3daf8;"></div>
-              <h4 class="title"><a href="">국내 펀드</a></h4>
-              <p class="description"><p align="center">전체 국내 펀드 현황을 알아보세요!</p>
+              <div class="icon" style="background: #fceef3;"><i class="ion-ios-analytics-outline" style="color: #ff689b;"></i></div>
+              <h4 class="title"><a href="">Lorem Ipsum</a></h4>
+              <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
             </div>
           </div>
           <div class="col-md-6 col-lg-4 wow bounceInUp" data-wow-duration="1.4s">
             <div class="box">
-              <div>
-               <img src="img/chart.png" class="icon" style="background: #fff0da;"></div>
-              <h4 class="title"><a href="">나만의 펀드</a></h4>
-              <p class="description"><p align="center">투자 성향 별 맞춤형 펀드를 찾아보세요!</p>
+              <div class="icon" style="background: #fff0da;"><i class="ion-ios-bookmarks-outline" style="color: #e98e06;"></i></div>
+              <h4 class="title"><a href="">Dolor Sitema</a></h4>
+              <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
             </div>
           </div>
 
           <div class="col-md-6 col-lg-4 wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
             <div class="box">
-              <div>
-               <img src="img/future.png" class="icon" style="background: #d0f9d9;"></div>
-              <h4 class="title"><a href="">펀드 예측 서비스</a></h4>
-              <p class="description"><p align="center">ML을 기반으로 한 펀드 예측 서비스를 사용해보세요!</p>
+              <div class="icon" style="background: #e6fdfc;"><i class="ion-ios-paper-outline" style="color: #3fcdc7;"></i></div>
+              <h4 class="title"><a href="">Sed ut perspiciatis</a></h4>
+              <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
+            <div class="box">
+              <div class="icon" style="background: #eafde7;"><i class="ion-ios-speedometer-outline" style="color:#41cf2e;"></i></div>
+              <h4 class="title"><a href="">Magni Dolores</a></h4>
+              <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 wow bounceInUp" data-wow-delay="0.2s" data-wow-duration="1.4s">
+            <div class="box">
+              <div class="icon" style="background: #e1eeff;"><i class="ion-ios-world-outline" style="color: #2282ff;"></i></div>
+              <h4 class="title"><a href="">Nemo Enim</a></h4>
+              <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 wow bounceInUp" data-wow-delay="0.2s" data-wow-duration="1.4s">
+            <div class="box">
+              <div class="icon" style="background: #ecebff;"><i class="ion-ios-clock-outline" style="color: #8660fe;"></i></div>
+              <h4 class="title"><a href="">Eiusmod Tempor</a></h4>
+              <p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
             </div>
           </div>
 
@@ -196,7 +213,6 @@
     <!--==========================
       Why Us Section
     ============================-->
-    <!-- 
     <section id="why-us" class="wow fadeIn">
       <div class="container-fluid">
         
@@ -212,7 +228,7 @@
               <img src="img/why-us.jpg" alt="" class="img-fluid">
             </div>
           </div>
-			
+
           <div class="col-lg-6">
             <div class="why-us-content">
               <p>Molestiae omnis numquam corrupti omnis itaque. Voluptatum quidem impedit. Odio dolorum exercitationem est error omnis repudiandae ad dolorum sit.</p>
@@ -248,7 +264,7 @@
         </div>
 
       </div>
-	
+
       <div class="container">
         <div class="row counters">
 
@@ -280,7 +296,6 @@
     <!--==========================
       Call To Action Section
     ============================-->
-    <!-- 
     <section id="call-to-action" class="wow fadeInUp">
       <div class="container">
         <div class="row">
@@ -295,34 +310,33 @@
 
       </div>
     </section><!-- #call-to-action -->
-	
+
     <!--==========================
-      Features Section	//수익률 TOP5
+      Features Section
     ============================-->
     <section id="features">
       <div class="container">
+
         <div class="row feature-item">
           <div class="col-lg-6 wow fadeInUp">
-            <img src="img/topfund.jpg" class="img-fluid" alt="">
+            <img src="img/features-1.svg" class="img-fluid" alt="">
           </div>
           <div class="col-lg-6 wow fadeInUp pt-5 pt-lg-0">
-            <h4>펀드 수익률 TOP 5</h4>
+            <h4>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h4>
             <p>
-            	펀드 수익률 내용 들어갈 자리
+              Ipsum in aspernatur ut possimus sint. Quia omnis est occaecati possimus ea. Quas molestiae perspiciatis occaecati qui rerum. Deleniti quod porro sed quisquam saepe. Numquam mollitia recusandae non ad at et a.
             </p>
             <p>
-				펀드 수익률 내용 들어갈 자리 222222
+              Ad vitae recusandae odit possimus. Quaerat cum ipsum corrupti. Odit qui asperiores ea corporis deserunt veritatis quidem expedita perferendis. Qui rerum eligendi ex doloribus quia sit. Porro rerum eum eum.
             </p>
           </div>
         </div>
-        </div>
-        </section>
-<!--  
+
         <div class="row feature-item mt-5 pt-5">
           <div class="col-lg-6 wow fadeInUp order-1 order-lg-2">
             <img src="img/features-2.svg" class="img-fluid" alt="">
           </div>
-<!-- 
+
           <div class="col-lg-6 wow fadeInUp pt-4 pt-lg-0 order-2 order-lg-1">
             <h4>Neque saepe temporibus repellat ea ipsum et. Id vel et quia tempora facere reprehenderit.</h4>
             <p>
@@ -344,7 +358,6 @@
     <!--==========================
       Portfolio Section
     ============================-->
-    <!-- 
     <section id="portfolio" class="section-bg">
       <div class="container">
 
@@ -499,7 +512,6 @@
     <!--==========================
       Clients Section
     ============================-->
-    <!-- 
     <section id="testimonials">
       <div class="container">
 
@@ -560,7 +572,6 @@
     <!--==========================
       Team Section
     ============================-->
-    <!-- 
     <section id="team" class="section-bg">
       <div class="container">
         <div class="section-header">
@@ -650,7 +661,6 @@
     <!--==========================
       Clients Section
     ============================-->
-    <!--
     <section id="clients" class="wow fadeInUp">
       <div class="container">
 
@@ -676,7 +686,6 @@
     <!--==========================
       Pricing Section
     ============================-->
-    <!-- 
     <section id="pricing" class="wow fadeInUp section-bg">
 
       <div class="container">
@@ -689,7 +698,6 @@
         <div class="row flex-items-xs-middle flex-items-xs-center">
       
           <!-- Basic Plan  -->
-          <!-- 
           <div class="col-xs-12 col-lg-4">
             <div class="card">
               <div class="card-header">
@@ -711,7 +719,6 @@
           </div>
       
           <!-- Regular Plan  -->
-          <!-- 
           <div class="col-xs-12 col-lg-4">
             <div class="card">
               <div class="card-header">
@@ -733,7 +740,6 @@
           </div>
       
           <!-- Premium Plan  -->
-          <!-- 
           <div class="col-xs-12 col-lg-4">
             <div class="card">
               <div class="card-header">
@@ -762,7 +768,6 @@
     <!--==========================
       Frequently Asked Questions Section
     ============================-->
-    <!--
     <section id="faq">
       <div class="container">
         <header class="section-header">
@@ -830,12 +835,11 @@
       </div>
     </section><!-- #faq -->
 
-   </main>
+  </main>
 
   <!--==========================
     Footer
   ============================-->
- 
   <footer id="footer" class="section-bg">
     <div class="footer-top">
       <div class="container">
@@ -849,8 +853,8 @@
                 <div class="col-sm-6">
 
                   <div class="footer-info">
-                    <h3>Fundly</h3>
-                    <p>펀들리 소개 or 팀원 소개? 길이는 적당히 맞춰서 쓸 것 동해물과 백두산이 마르고 닳도록 하느님이 보우하사 우리 나라 만세 무궁화 삼천리 화려 강산 대한 사람 대한으로 길이 보전하세</p>
+                    <h3>Rapid</h3>
+                    <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus. Scelerisque felis imperdiet proin fermentum leo. Amet volutpat consequat mauris nunc congue.</p>
                   </div>
 
                   <div class="footer-newsletter">
@@ -878,10 +882,10 @@
                   <div class="footer-links">
                     <h4>Contact Us</h4>
                     <p>
-                                                 대한민국 경기도 <br>
-                                                 시흥시 산기대학로 237<br>
-                                                 한국산업기술대학교<br>                           
-                      <strong>Phone:</strong> +82 031-8041-1000<br>
+                      A108 Adam Street <br>
+                      New York, NY 535022<br>
+                      United States <br>
+                      <strong>Phone:</strong> +1 5589 55488 55<br>
                       <strong>Email:</strong> info@example.com<br>
                     </p>
                   </div>
@@ -890,6 +894,7 @@
                     <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
                     <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
                     <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
+                    <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
                   </div>
 
                 </div>
@@ -903,7 +908,7 @@
             <div class="form">
               
               <h4>Send us a message</h4>
-              <p>더 자세한 내용이나 상담을 원하신다면 아래 이메일로 연락해주세요.</p>
+              <p>Eos ipsa est voluptates. Nostrum nam libero ipsa vero. Debitis quasi sit eaque numquam similique commodi harum aut temporibus.</p>
               <form action="" method="post" role="form" class="contactForm">
                 <div class="form-group">
                   <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
@@ -931,22 +936,28 @@
 
           </div>
 
+          
+
         </div>
 
       </div>
     </div>
 
-
     <div class="container">
       <div class="copyright">
-        &copy; Copyright <strong>Fundly</strong>. All Rights Reserved
+        &copy; Copyright <strong>Rapid</strong>. All Rights Reserved
       </div>
       <div class="credits">
+        <!--
+          All the links in the footer should remain intact.
+          You can delete the links only if you purchased the pro version.
+          Licensing information: https://bootstrapmade.com/license/
+          Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Rapid
+        -->
         Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
       </div>
     </div>
-    </footer>
-  <!-- #footer -->
+  </footer><!-- #footer -->
 
   <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
   <!-- Uncomment below i you want to use a preloader -->
