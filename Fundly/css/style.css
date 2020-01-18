@@ -576,6 +576,99 @@ h6 {
   transition: .5s;
 }
 
+/* fundtest Section
+--------------------------------*/
+
+#fundtest {
+
+  padding: 170px 0 10px 0;
+  width: 100%
+  height: 100%;
+}
+#fundtest .testfont {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+/* testlist Section
+--------------------------------*/
+
+#testlist {
+
+  padding: 40px;
+  width: 100%
+  height: 100%;
+}
+
+#testlist .listbox {
+  width: 1000px;
+  padding-bottom: 55px;
+  font-size: 15px;
+}
+
+#testlist .listfont {
+  width: 1000px;
+  font-weight: bold;
+  font-size: 20px;
+
+}
+
+/*------------------------------------------------------------------
+[ Button ]*/
+.container-fundtest-form-btn {
+  width: 1070px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+.fundtest-form-btn {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #fff;
+  text-transform: uppercase;
+
+  width: 200px;
+  height: 50px;
+  border-radius: 25px;
+  background: #1bb1dc;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 25px;
+
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.fundtest-form-btn:hover {
+  background: #333333;
+}
+
+/* faq Section
+--------------------------------*/
+.faqbox {
+  background: #f5f8fd;
+  background-repeat: no-repeat;
+  padding: 170px 0px 0px 0px;
+  
+}
+
+
+
 /* Services Section
 --------------------------------*/
 
@@ -692,41 +785,38 @@ h6 {
 --------------------------------*/
 
 #call-to-action {
-  background: white;
+  background: #2d2b46;
   background-size: cover;
   padding: 40px 0;
 }
 
 #call-to-action .cta-title {
-  color: #000;
+  color: #fff;
   font-size: 28px;
   font-weight: 700;
 }
 
 #call-to-action .cta-text {
-  color: #000;
+  color: #fff;
 }
 
 #call-to-action .cta-btn {
-  position: relative;
-  top: 30px;
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
-  font-size: 17px;
+  font-size: 16px;
   letter-spacing: 1px;
   display: inline-block;
   padding: 8px 26px;
   border-radius: 3px;
   transition: 0.5s;
   margin: 10px;
-  border: 3px solid #4fc3f7;
-  color: #4fc3f7;
+  border: 3px solid #fff;
+  color: #fff;
 }
 
 #call-to-action .cta-btn:hover {
-  background: #81d4fa;
-  border: 3px solid #81d4fa;
-  color: white;
+  background: #1bb1dc;
+  border: 3px solid #1bb1dc;
 }
 
 /* Features Section
@@ -1059,213 +1149,6 @@ h6 {
   background-color: #1bb1dc;
 }
 
-/* Domestic_Fund Section
---------------------------------*/
-
-.Scrollbar1 {
-	 height:200px; 
-	 z-index:0; 
-	 overflow-x:hidden;
-}
-
-.Scrollbar1::-webkit-scrollbar {
-    width: 7px;
-}
- 
-.Scrollbar1::-webkit-scrollbar-thumb {
-    background-color: #1BB1DC;
-    border-radius: 5px;
-}
-
-.Scrollbar1::-webkit-scrollbar-track {
-    background-color: #d3d3d3;
-    border-radius: 5px;
-}
-
-.Scrollbar2 {
-	 height:200px; 
-	 z-index:0; 
-	 overflow-x:hidden;
-}
-
-.Scrollbar2::-webkit-scrollbar {
-    width: 7px;
-}
- 
-.Scrollbar2::-webkit-scrollbar-thumb {
-    background-color: #1BB1DC;
-    border-radius: 5px;
-}
-
-.Scrollbar2::-webkit-scrollbar-track {
-    background-color: #d3d3d3;
-    border-radius: 5px;
-}
-
-    
-/* Personal_test_Result Section
---------------------------------*/
-
-.test-bg {
-	background: #f5f8fd url("../img/intro-bg.jpg") center top no-repeat;
-}
-
-/* RESET STYLES
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-
-.chart-skills {
-  margin: 0 auto;
-  padding: 0;
-  list-style-type: none;
-}
-
-.chart-skills *,
-.chart-skills::before {
-  box-sizing: border-box;
-}
-
-
-/* CHART-SKILLS STYLES
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-
-.chart-skills {
-  position: relative;
-  width: 350px;
-  height: 175px;
-  overflow: hidden;
-}
-
-.chart-skills::before,
-.chart-skills::after {
-  position: absolute;
-}
-
-.chart-skills::before {
-  content: '';
-  width: inherit;
-  height: inherit;
-  border: 45px solid rgba(211, 211, 211, .3);
-  border-bottom: none;
-  border-top-left-radius: 175px;
-  border-top-right-radius: 175px;
-}
-
-.chart-skills::after {
-  left: 50%;
-  bottom: 10px;
-  transform: translateX(-50%);
-  font-size: 1.1rem;
-  font-weight: bold;
-  color: cadetblue;
-}
-
-.chart-skills li {
-  position: absolute;
-  top: 100%;
-  left: 0;
-  width: inherit;
-  height: inherit;
-  border: 45px solid;
-  border-top: none;
-  border-bottom-left-radius: 175px;
-  border-bottom-right-radius: 175px;
-  transform-origin: 50% 0;
-  transform-style: preserve-3d;
-  backface-visibility: hidden;
-  animation-fill-mode: forwards;
-  animation-duration: .4s;
-  animation-timing-function: linear;
-}
-
-.chart-skills li:nth-child(1) {
-  z-index: 5;
-  border-color: #b3e5fc;
-  animation-name: rotate-one;
-}
-
-.chart-skills li:nth-child(2) {
-  z-index: 4;
-  border-color: #81d4fa;
-  animation-name: rotate-two;
-  animation-delay: .4s;
-}
-
-.chart-skills li:nth-child(3) {
-  z-index: 3;
-  border-color: #4fc3f7;
-  animation-name: rotate-three;
-  animation-delay: .8s;
-}
-
-.chart-skills li:nth-child(4) {
-  z-index: 2;
-  border-color: #29b6f6;
-  animation-name: rotate-four;
-  animation-delay: 1.2s;
-}
-
-.chart-skills li:nth-child(5) {
-  z-index: 1;
-  border-color: #03a9f4;
-  animation-name: rotate-five;
-  animation-delay: 1.5s;
-}
-
-.chart-skills span {
-  position: absolute;
-  font-size: .85rem;
-  backface-visibility: hidden;
-  animation: fade-in .4s linear forwards;
-}
-
-.chart-skills li:nth-child(1) span {
-  top: 5px;
-  left: 10px;
-  transform: rotate(-36deg);
-}
-
-.chart-skills li:nth-child(2) span {
-  top: 20px;
-  left: 10px;
-  transform: rotate(-72deg);
-  animation-delay: .4s;
-}
-
-.chart-skills li:nth-child(3) span {
-  top: 10px;
-  left: 0px;
-  transform: rotate(-118deg);
-  animation-delay: .8s;
-}
-
-.chart-skills li:nth-child(4) span {
-  top: 7px;
-  left: 10px;
-  transform: rotate(-144deg);
-  animation-delay: 1.2s;
-}
-
-.chart-skills li:nth-child(5) span {
-  top: 10px;
-  left: 10px;
-  transform: rotate(-180deg);
-  animation-delay: 1.5s;
-}
-
-.form input {
-  font-family: "Montserrat", sans-serif;
-  outline: 0;
-  background: #f2f2f2;
-  width: 40%;
-  border: 0;
-  border-radius: 30px;
-  margin: 0 0 15px;
-  padding: 15px;
-  box-sizing: border-box;
-  font-size: 17px;
-  text-align: right;
-}
-
 /* Pricing Section
 --------------------------------*/
 
@@ -1373,8 +1256,10 @@ h6 {
 --------------------------------*/
 
 #faq {
-  padding: 60px 0;
+  padding: 0px 0;
   overflow: hidden;
+  background: #f5f8fd;
+
 }
 
 #faq #faq-list {
@@ -1777,58 +1662,3 @@ h6 {
     margin-bottom: 25px;
   }
 }
-
-/*----------------------------------
-		personal-test
----------------------------------*/
-@keyframes rotate-one {
-  100% {
-    transform: rotate(36deg);
- 
-  }
-}
-
-@keyframes rotate-two {
-  0% {
-    transform: rotate(36deg);
-  }
-  100% {
-    transform: rotate(72deg);
-  
-  }
-}
-
-@keyframes rotate-three {
-  0% {
-    transform: rotate(72deg);
-  }
-  100% {
-    transform: rotate(108deg);
-  
-  }
-}
-
-@keyframes rotate-four {
-  0% {
-    transform: rotate(108deg);
-  }
-  100% {
-    transform: rotate(144deg);
-   
-  }
-}
-
-@keyframes rotate-five {
-  0% {
-    transform: rotate(144deg);
-  }
-  100% {
-    transform: rotate(180deg);
-  
-  }
-}
-@keyframes fade-in {
-  0%,
-  90% {
-    opacity: 0;
-  }
