@@ -136,7 +136,7 @@
           <div class="col-lg-9 text-center text-lg-left"><br><br>
             <h3 class="cta-title">맞춤 펀드 추천을 위해 입력해주세요.</h3>
             <p class="cta-text">
-    	<div class="form">
+    	<div class="personal_form">
     	<p style="font-size:17px; font-weight:bold;">
 		<input type="text" name="money_expect" placeholder="예상 투자 금액&nbsp;">(원)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     	<input type="text" name="year_hold" placeholder="보유 기간&nbsp;">(년)</p>
