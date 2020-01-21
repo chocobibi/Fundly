@@ -49,7 +49,7 @@
           <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
           <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
           <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
-          <a href="#" class="login">Login</a>
+          <a href="login.jsp" class="login">Login</a>
         </div>
       </div>
     </div>
@@ -66,10 +66,10 @@
         <ul>
           <li><a href="index.html">Home</a></li>
           <li><a href="domestic_fund.jsp">국내 펀드</a></li>
-          <li class="active"><a href="#my_fund">나만의 펀드</a></li>
-          <li><a href="#future_fund">펀드 예측</a></li>
+          <li class="active"><a href="fund_test.jsp">나만의 펀드</a></li>
           <li><a href="#about_us">About Us</a></li>
-          <li class="drop-down"><a href="">FAQ</a> <!-- drop down 기능 -->
+          <li><a href="faq.jsp">FAQ</a></li>
+          <!-- <li class="drop-down"><a href="">FAQ</a>  drop down 기능 
             <ul>
               <li><a href="#">Drop Down 1</a></li> 
               <li class="drop-down"><a href="#">Drop Down 2</a>
@@ -85,7 +85,7 @@
               <li><a href="#">Drop Down 4</a></li>
               <li><a href="#">Drop Down 5</a></li>
             </ul>
-          </li>
+          </li> -->
           <li><a href="#footer">Contact</a></li>
         </ul>
       </nav><!-- .main-nav -->
@@ -136,7 +136,7 @@
           <div class="col-lg-9 text-center text-lg-left"><br><br>
             <h3 class="cta-title">맞춤 펀드 추천을 위해 입력해주세요.</h3>
             <p class="cta-text">
-    	<div class="form">
+    	<div class="personal_form">
     	<p style="font-size:17px; font-weight:bold;">
 		<input type="text" name="money_expect" placeholder="예상 투자 금액&nbsp;">(원)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     	<input type="text" name="year_hold" placeholder="보유 기간&nbsp;">(년)</p>

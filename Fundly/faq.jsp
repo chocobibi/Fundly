@@ -49,7 +49,7 @@
           <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
           <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
           <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
-          <a href="#" class="login">Login</a>
+          <a href="login.jsp" class="login">Login</a>
         </div>
       </div>
     </div>
@@ -58,18 +58,17 @@
 
       <div class="logo float-left">
         <!-- Uncomment below if you prefer to use an image logo -->
-        <h1 class="text-light"><a href="#intro" class="scrollto"><span>Fundly</span></a></h1>
+        <h1 class="text-light"><a href="index.html" class="scrollto"><span>Fundly</span></a></h1>
         <!-- <a href="#header" class="scrollto"><img src="img/logo.png" alt="" class="img-fluid"></a> -->
       </div>
 
       <nav class="main-nav float-right d-none d-lg-block">
         <ul>
-          <li><a href="#intro">Home</a></li>
-          <li><a href="#domestic_fund">국내 펀드</a></li>
-          <li><a href="#my_fund">나만의 펀드</a></li>
-          <li><a href="#future_fund">펀드 예측</a></li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="domestic_fund.jsp">국내 펀드</a></li>
+          <li><a href="fund_test.jsp">나만의 펀드</a></li>
           <li><a href="#about_us">About Us</a></li>
-          <li class="active"><a href="#">FAQ</a></li>
+          <li class="active"><a href="faq.jsp">FAQ</a></li>
           <li><a href="#footer">Contact</a></li>
         </ul>
       </nav><!-- .main-nav -->
