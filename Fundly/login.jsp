@@ -81,7 +81,6 @@
           <li class="active"><a href="#intro">Home</a></li>
           <li><a href="#domestic_fund">국내 펀드</a></li>
           <li><a href="fund_test.html">나만의 펀드</a></li>
-          <li><a href="future_fund.html">펀드 예측</a></li>
           <li><a href="#about_us">About Us</a></li>
           <li><a href="faq.html">FAQ</a></li>
           <li><a href="#footer">Contact</a></li>

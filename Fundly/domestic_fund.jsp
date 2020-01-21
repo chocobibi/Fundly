@@ -67,7 +67,6 @@
           <li><a href="index.html">Home</a></li>
           <li class="active"><a href="domestic_fund.jsp">국내 펀드</a></li>
           <li><a href="#my_fund">나만의 펀드</a></li>
-          <li><a href="#future_fund">펀드 예측</a></li>
           <li><a href="#about_us">About Us</a></li>
           <li class="drop-down"><a href="">FAQ</a> <!-- drop down 기능 -->
             <ul>
@@ -125,9 +124,6 @@
 				</td>
 				<td>	<!-- 테마명 -->
 					<div class="Scrollbar1">
-					<input type="checkbox" name="themes" value="럭셔리"> 럭셔리<br>
-					<input type="checkbox" name="themes" value="물"> 물<br>
-					<input type="checkbox" name="themes" value="브릭스"> 브릭스<br>
 					<input type="checkbox" name="themes" value="삼성그룹주"> 삼성그룹주<br>
 					<input type="checkbox" name="themes" value="어린이펀드"> 어린이펀드<br>
 					<input type="checkbox" name="themes" value="연금저축"> 연금저축<br>
@@ -137,7 +133,6 @@
 					<input type="checkbox" name="themes" value="친환경"> 친환경<br>
 					<input type="checkbox" name="themes" value="퇴직연금"> 퇴직연금<br>
 					<input type="checkbox" name="themes" value="SRI"> SRI<br>
-					<input type="checkbox" name="themes" value="원자재"> 원자재<br>
 					<input type="checkbox" name="themes" value="분배식"> 분배식<br>
 					</div>
 				</td>
@@ -230,7 +225,7 @@
     	<div class="container">
     	<div class="wow fadeInUp pt-5 pt-lg-0"> <!-- 위로 올라오는 효과 -->
     	<div class="text-uppercase text-bold"><br><p style="font-size:20px; font-weight:bold;">국내 펀드</p></div>
-  		
+          		
         <a href="#"><font size="2px" color="black"><b>수익률 1개월 순   |</b></font></a>
         <a href="#"><font size="2px" color="black"><b>수익률 3개월 순   |</b></font></a>
         <a href="#"><font size="2px" color="black"><b>수익률 1년 순      |</b></font></a>
@@ -240,6 +235,8 @@
 		<thead>
 			<tr>
 				<td rowspan="2" align="center"><b><br>펀드명</b></td>
+				<td rowspan="2" align="center"><b><br>미래예상수익률</b></td>
+				
 				<td colspan="3" align="center"><b>수익률 (%)</b></td>
 			</tr>
 			<tr align="center">
@@ -251,6 +248,9 @@
 		<tbody>
 				<td align="center">	<!-- 펀드명 -->
 					한국투자코스닥인버스증권투자신탁(주식-재간접파생형)
+				</td>
+				<td align="center">	<!-- 미래 예상 수익률 -->
+					2.5%
 				</td>
 				<td align="center">	<!-- 수익률 1개월 -->
 					22.85%
@@ -265,6 +265,9 @@
 		<tbody>
 				<td align="center">	<!-- 펀드명 -->
 					신한BNPP2Star지수연계증권투자신탁HE-29[ELS-파생형]
+				</td>
+				<td align="center">	<!-- 미래 예상 수익률 -->
+					2.5%
 				</td>
 				<td align="center">	<!-- 수익률 1개월 -->
 					20.80%

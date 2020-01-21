@@ -67,7 +67,6 @@
           <li><a href="#intro">Home</a></li>
           <li><a href="#domestic_fund">국내 펀드</a></li>
           <li class="active"><a href="#my_fund">나만의 펀드</a></li>
-          <li><a href="#future_fund">펀드 예측</a></li>
           <li><a href="#about_us">About Us</a></li>
           <li class="drop-down"><a href="">FAQ</a> <!-- drop down 기능 -->
             <ul>
