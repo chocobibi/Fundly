@@ -70,17 +70,17 @@
 
       <div class="logo float-left">
         <!-- Uncomment below if you prefer to use an image logo -->
-      	<h1 class="text-light"><a href="#intro" class="scrollto"><span>Fundly</span></a></h1>
+      	<h1 class="text-light"><a href="index.html" class="scrollto"><span>Fundly</span></a></h1>
         <!-- <a href="#header" class="scrollto"><img src="img/logo.png" alt="" class="img-fluid"></a> -->
       </div>
 
       <nav class="main-nav float-right d-none d-lg-block">
         <ul>
-          <li class="active"><a href="#intro">Home</a></li>
-          <li><a href="#domestic_fund">국내 펀드</a></li>
-          <li><a href="fund_test.html">나만의 펀드</a></li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="domestic_fund.jsp">국내 펀드</a></li>
+          <li><a href="fund_test.jsp">나만의 펀드</a></li>
           <li><a href="#about_us">About Us</a></li>
-          <li><a href="faq.html">FAQ</a></li>
+          <li><a href="faq.jsp">FAQ</a></li>
           <li><a href="#footer">Contact</a></li>
         </ul>
       </nav><!-- .main-nav -->
